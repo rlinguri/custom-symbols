@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomSymbols" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="Uia-Xc-2Gw">
+                                <rect key="frame" x="157" y="243" width="100" height="420"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Images" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHz-hV-jw4">
+                                        <rect key="frame" x="24" y="0.0" width="52.5" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="5JT-OV-mFu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="eik-kh-Rb5">
+                                        <rect key="frame" x="36" y="56" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="5TW-R9-Bo8"/>
+                                            <constraint firstAttribute="width" constant="28" id="rXQ-za-t0C"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forward-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Wdc-CV-db6">
+                                        <rect key="frame" x="36" y="112" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="SrA-5G-wKv"/>
+                                            <constraint firstAttribute="width" constant="28" id="jcU-9T-bag"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patient-bar" translatesAutoresizingMaskIntoConstraints="NO" id="XAR-Uu-Ara">
+                                        <rect key="frame" x="36" y="168" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="28" id="RO7-XB-zRc"/>
+                                            <constraint firstAttribute="height" constant="28" id="cqy-GN-5N2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symbols" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nu1-DZ-IKZ">
+                                        <rect key="frame" x="19" y="224" width="62.5" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="V0Y-0d-u3g"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Kmc-xP-ZX5">
+                                        <rect key="frame" x="36" y="280" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="28" id="chp-ZX-FW1"/>
+                                            <constraint firstAttribute="height" constant="28" id="eMl-5F-Gcl"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forward.arrow" translatesAutoresizingMaskIntoConstraints="NO" id="bb2-8E-P6u">
+                                        <rect key="frame" x="36" y="336" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="QKk-0J-qEc"/>
+                                            <constraint firstAttribute="width" constant="28" id="rFj-E2-unI"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patient" translatesAutoresizingMaskIntoConstraints="NO" id="uhb-hf-O0r">
+                                        <rect key="frame" x="36" y="392" width="28" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="28" id="tDn-8K-rwC"/>
+                                            <constraint firstAttribute="height" constant="28" id="u7x-Cf-hWt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="VcJ-ln-so5"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Uia-Xc-2Gw" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Dt9-eS-1V7"/>
+                            <constraint firstItem="Uia-Xc-2Gw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yxu-9q-YSd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back-arrow" width="28" height="28"/>
+        <image name="back.arrow" width="9" height="15"/>
+        <image name="forward-arrow" width="28" height="28"/>
+        <image name="forward.arrow" width="9" height="15"/>
+        <image name="patient" width="15" height="15"/>
+        <image name="patient-bar" width="28" height="28"/>
+    </resources>
+</document>
